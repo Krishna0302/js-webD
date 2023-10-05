@@ -13,18 +13,24 @@ let num2 = Number(age);
 // "20abc" => NaN
 // true => 1; false => 0
 
-let b = "krishna"
-let isTrue = Boolean(b)
-console.log(isTrue)
+// let b = "krishna"
+// let isTrue = Boolean(b)
+// console.log(isTrue)
 
 // 1 => true, 0 => false
 // "" => false, "krishna" => true
 
 // ****************Operation*****************
-console.log(2+2)
-console.log(2**3)
-console.log(2%3)
-let str1 = "krishna"
-let str2 = "bairwa"
-let str3 = str1 + str2
-console.log(str3)
+// console.log(2+2)
+// console.log(2**3)
+// console.log(2%3)
+// let str1 = "krishna"
+// let str2 = "bairwa"
+// let str3 = str1 + str2
+// console.log(str3)
+
+console.log(+true)
+// console.log(true+)
+let isGreater = 30
+isGreater++
+console.log(isGreater)
