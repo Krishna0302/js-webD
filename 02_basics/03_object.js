@@ -1,4 +1,4 @@
-// object 
+// object literal
 
 const mySym = Symbol("key1")
 const user = {
