@@ -5,6 +5,7 @@
 let name = "krishna";
 let isAccount = true;
 let a = 3;
+let n = null;
 
 /*premitive dataTypes:
 number => 2 to power 53
@@ -17,4 +18,4 @@ symbol => unique */
 
 // object
 
-console.log(typeof isAccount);
+console.log(typeof n);

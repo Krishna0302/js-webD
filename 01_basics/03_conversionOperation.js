@@ -29,7 +29,7 @@ let num2 = Number(age);
 // let str3 = str1 + str2
 // console.log(str3)
 
-console.log(+true)
+// console.log(+true)
 // console.log(true+)
 let isGreater = 30
 isGreater++
