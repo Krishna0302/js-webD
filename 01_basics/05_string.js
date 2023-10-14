@@ -13,7 +13,7 @@ const repoCount = 50
 const newName = name.substring(0,4)
 // console.log(newName)
 
-const anotherName = name.slice(-6,4)
+const anotherName = name.slice(-6,4)     // we cant give negative index in slice for subString of a array
 // console.log(anotherName)
 
 const newString = "     krishna     "
