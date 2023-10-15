@@ -31,5 +31,29 @@ function userNameLoggedIn(username){
     return  username + " just logged in"
 }
 
-console.log(userNameLoggedIn("krishna"))
-console.log(userNameLoggedIn())
+// console.log(userNameLoggedIn("krishna"))
+// console.log(userNameLoggedIn())
+
+// function calculateCartPrice(val1, val2, ...num){
+//     return num
+// }
+// console.log(calculateCartPrice(200, 400 ,599))
+
+const user = {
+    userName: "krishna",
+    price: "299"
+}
+function handleObject(anyObject){
+    console.log("UserName is "+ anyObject.userName + " and price is " + anyObject.price)
+}
+// handleObject({
+//    userName: "krishna",
+//    price: "299"
+// })
+
+const arr = [200, 399, 157, 583]
+function returnSecondValue(myArr){
+    console.log(myArr[1])
+}
+// returnSecondValue(arr)
+returnSecondValue([200, 399, 157, 583])
