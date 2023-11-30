@@ -20,6 +20,42 @@ map.set('Fr', "France")
 // console.log(map)
 
 for (const [key, value] of map) {
-    console.log(key)
-    console.log(value)
+    // console.log(key + "-:" + value);
+    // console.log(value)
 }
+ // for in  (for objects)
+
+ const myObject = {
+    'Game1': "GTA",
+    'Game2': "NFS"
+ }
+
+ for(const key in myObject){
+    // console.log(key)
+    // console.log(myObject[key])
+ }
+
+ const programming = ["java", "cpp", "python", "JS"]
+ for (const key in programming) {
+    // console.log(key)
+    // console.log(programming[key])
+ }
+
+ // for in will not work for map 
+
+ // for each (will use it more)
+
+ const conding = ["java", "python", "cpp", "ruby", "js"]
+// conding.forEach( function (val) {
+//     console.log(val)
+// })
+
+// conding.forEach( (val) => {
+//     console.log(val)
+// })
+
+function printMe (item){
+   console.log(item)
+}
+
+conding.forEach(printMe)   // function ko execute nhi krana, bs reference dena hai
