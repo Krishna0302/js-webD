@@ -55,7 +55,30 @@ for (const [key, value] of map) {
 // })
 
 function printMe (item){
-   console.log(item)
+//    console.log(item)
 }
 
 conding.forEach(printMe)   // function ko execute nhi krana, bs reference dena hai
+
+conding.forEach( (item, index, arr) => {
+    // console.log(item, index, arr)
+})
+
+const mycoding = [
+    {
+        language: "cpp",
+        fileName: "c++"
+    },
+    {
+        language: "java",
+        fileName: "jv"
+    },
+    {
+        language: "python",
+        fileName: "py"
+    }
+]
+
+mycoding.forEach((item) =>{
+    console.log(item.language)
+})
