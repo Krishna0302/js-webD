@@ -2,26 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>DOM</title>
-    <style>
-        .bg-black{
-            background-color: hsl(0, 40%, 4%);
-            color: #fff;
-        }
-    </style>
+    <title>DOM | Chai with Code</title>
 </head>
-<body class="bg-black">
-    <div>
-        <h1 id = "tital" class = "Heading">Learning DOM on CHai Aur Code <span style = "display: none;">krishna</span></h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sed!</h1>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, explicabo voluptatum voluptatibus minus commodi quod.</h3>
-        <p>Lorem ipsum dolor sit.</p>
-        <ul>
-            <li class = "list-Item">two</li>
-            <li class = "list-Item">three</li>
-            <li class = "list-Item">one</li>
-
-        </ul>
+<body style = "background-color: black; color : #fff;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
     </div>
 </body>
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children[1].innerHTML)
+    // for(let i = 0; i<parent.children.length; i++){
+    //     console.log(parent.children[i].innerHTML)
+    // }
+    // parent.children[0].style.color = "orange"
+    // console.log(parent.firstElementChild)
+    // console.log(parent.lastElementChild)
+    const dayOne = document.querySelector('.day')
+    // console.log(dayOne.parentElement)
+    // console.log(dayOne.nextElementSibling)
+    console.log("NODES: " , parent.childNodes) 
+
+</script>
 </html>
